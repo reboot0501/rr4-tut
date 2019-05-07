@@ -16,8 +16,8 @@ const Posts = () => {
     return (
         <div>
             <h1>포스트</h1>
-            <Link to="/posts/react">React</Link>
-            <Link to="/posts/redux">Redux</Link>
+            <Link to="/posts/react">React</Link><br/>
+            <Link to="/posts/redux">Redux</Link><br/>
             <Link to="/posts/relay">Relay</Link>
             <Route path="/posts/:title" component={Post} />        
         </div>
