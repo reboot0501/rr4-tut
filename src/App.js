@@ -1,6 +1,6 @@
 /**
  * 1차 Route & Header 메뉴 (Link) 적용
- * 2차 Component 내부에서 Link 적용 Posts Component 반영
+ * 2차 NavLink (CSS 적용) 이동적용, Component 내부에서 Link 적용 Posts Component 반영
  */
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
